@@ -20,7 +20,7 @@ html {
     background-color: #f8f9fa;
     width: 100%;
     padding: 40px 0;
-    background-image: url(images/izooh2.jpg);
+    background-image: url(izooh2.jpg);
     height: 100vh;
     background-size: cover;
     
@@ -190,7 +190,7 @@ body{
   background: white;
   position: relative;
   border-radius: 10px;
-  background-image: url("images/connect.jpeg");
+  background-image: url("connect.jpeg");
   margin: 20px;
   background-size: cover;
   background-position: center;
@@ -201,7 +201,7 @@ body{
   background: white;
   position: relative;
   border-radius: 10px;
-  background-image: url("images/weather-image.jpg");
+  background-image: url("weather-image.jpg");
   margin: 20px;
   background-size: cover;
   background-position: center;
@@ -356,7 +356,7 @@ form .btn2{
 /* css for smaller screen */
 @media only screen and (max-width: 800px){
   #home{
-    background-image: url(images/izoohimage3.png);
+    background-image: url(izoohimage3.png);
   }
   #home p{
     font-size: 25px;
