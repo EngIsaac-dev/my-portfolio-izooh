@@ -1,0 +1,421 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-custom{
+    background-color: lightblue; 
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar-toggler {
+    order: -1;
+}
+.navbar-nav {
+    width: 100%; 
+}
+
+#home{
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 40px 0;
+    background-image: url(images/izooh2.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+#home h1{
+  font-size: 50px;
+  color: #1d0ea1;
+}
+#home p span{
+  color: #4634eb;
+}
+.hero{
+  margin-top: 20%;
+}
+body{
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+ #one{
+    height: 350px;
+    width: 350px;
+ }
+
+ #about {
+    background-color: #dff2f2;
+    
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+ #about p{
+  font-size: 18px;
+ }
+ .about-col-2{
+    flex-basis: 60%;
+ }
+
+  h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+ #skills {
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+
+  .skills-section h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+
+  .progress-bar {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .skills-section h2 {
+      font-size: 2rem;
+    }
+
+    .progress-bar {
+      font-size: 0.85rem;
+    }
+  }
+/* Styling for the Progress Bars */
+.progress-container {
+  position: relative;
+  width: 100%;
+}
+
+.skill-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.progress-bar {
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: width 0.4s ease;
+}
+
+.progress-bar {
+  width: 0;
+  transition: width 5s ease-in-out; /* Adjust duration as needed */
+}
+
+
+
+
+/* Hover Effect for Progress Bars */
+.progress-bar:hover {
+  opacity: 0.85;
+  filter: brightness(1.2);
+}
+
+#projects{
+  background-color: #dff2f2;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.projects{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+#projects p{
+  color: #262626;
+}
+
+#projects h2{
+  color: black;
+}
+.connectfour-project{
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("images/connect.jpeg");
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.weather-project{
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("images/weather-image.jpg");
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.text{
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: white;
+  overflow: hidden;
+  transition: 0.2s;
+  padding: 20px;
+}
+.connectfour-project p{
+  font-size: 15px;
+}
+#h2-proj{
+  padding: 20px;
+}
+
+.text:hover{
+height: 175px;
+transition: 0.3s;
+}
+.text h3{
+  margin-top: 3px;
+}
+.content{
+  color: black;
+}
+.button{
+  border: 5px solid lightblue;
+  border-radius: 10px;
+  width: 160px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+#cont{
+  padding-top: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right{
+  flex-basis: 60%;
+}
+.contact-left p{
+  margin-top: 30px;
+}
+.contact-left p i{
+  color: #7c90f7;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: blue;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover{
+  color: #102178;
+  transform: translateY(-5px);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: #2745db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.btn.btn2:hover {
+  background-color: #102178; /* Slightly darker red */
+  color: white;
+}
+#contact{
+    background-color: #f8f9fa;
+    padding-bottom: 30px;
+}
+.contact-right form{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #78ebe3;
+  padding: 15px;
+  margin: 15px 0;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer{
+  background-color: #c3f7f4;
+}
+.footer i {
+  font-size: 24px;      /* Size of social media icons */
+  color: #007bff;       /* Icon color */
+  transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+.footer i:hover {
+  color: #0056b3;       /* Darker shade on hover for interaction effect */
+}
+
+.footer p {
+  font-size: 20px;      /* Size of copyright text */
+  color: black;          /* Text color for readability */
+  margin-top: 10px;     /* Space above the copyright text */
+}
+
+.footer a {
+  text-decoration: none;  /* Remove underline from links */
+}
+.navbar-custom .fa-solid{
+  display: none;
+}
+#msg{
+  color: green;
+  margin-top: -10px;
+  display: block;
+}
+
+/* css for smaller screen */
+@media only screen and (max-width: 800px){
+  #home{
+    background-image: url(images/izoohimage3.png);
+  }
+  #home p{
+    font-size: 25px;
+  }
+  #home h1{
+    font-size: 30px;
+  }
+  .hero{
+    margin-top: 50%;
+  }
+  .about-col-1, .about-col-2{
+    flex-basis: 100%;
+  }
+
+  #h-about{
+    text-align: center;
+  }
+  #about p{
+    font-size: 16px;
+  }
+  .navbar-collapse{
+    background: #c8faf7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding-top: 50px;
+    z-index: 2;
+  }
+  .navbar-collapse ul li{
+    display: block;
+    margin-left: 20px;
+  }
+  .navbar-custom .fa-solid{
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+  }
+  .connectfour-project{
+    height: 300px;
+  }
+  .text{
+    padding-top: 0;
+    height: 100px;
+  }
+  .connectfour-project p{
+    font-size: 14px;
+  }
+ 
+  #cont{
+    font-size: 30px;
+  }
+  .contact-left{
+    flex-basis: 100%;
+    margin-left: 10px;
+  }
+  .contact-right{
+    flex-basis: 100%;
+  }
+}
