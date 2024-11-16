@@ -73,6 +73,9 @@ body{
  .about-col-2{
     flex-basis: 60%;
  }
+.break{
+  display: inline;
+ }
 
   h2 {
     font-size: 2.5rem;
@@ -369,6 +372,9 @@ form .btn2{
   }
   .about-col-1, .about-col-2{
     flex-basis: 100%;
+  }
+  .break{
+    display: block;
   }
 
   #h-about{
